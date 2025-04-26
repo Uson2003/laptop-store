@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Header from "./Layout/Header";
-import Footer from "./Layout/Footer";
+// import Footer from "./Layout/Footer";
 import { Layout, theme } from 'antd';
 import Cart from './Pages/Cart';
 import Product from './Pages/Product';
@@ -24,7 +24,7 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="*" element={<Home />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </div>
   );
