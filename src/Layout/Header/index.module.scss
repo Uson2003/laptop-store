@@ -1,0 +1,24 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        color: #fff;
+        display: flex;
+        font-weight: 700;
+        font-size: 23px;
+    }
+
+    .rightBar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .searchBar {
+            display: flex;
+            align-items: center;
+        }
+
+    }
+}
