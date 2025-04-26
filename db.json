@@ -1,0 +1,6 @@
+{
+    "laptop": [
+      { "id": "1", "title": "MacBook", "price": 1000 },
+      { "id": "2", "title": "Lenovo", "views": 700 }
+    ]
+  }
