@@ -86,7 +86,7 @@ function Cart() {
             >
                 <div>Номер реквизитов <span>**** **** **** ****</span></div>
                 <div>
-                    Переведите и отправьте свои данные на What's App
+                    Переведите и отправьте свои данные на What's App 0703 777 746
                 </div>
             </Modal>
         </React.Fragment>

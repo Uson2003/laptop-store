@@ -1,6 +1,57 @@
 .root {
-    padding: 1rem 50px;
+    background: linear-gradient(135deg, #d3d3d3 0%, #f9f9f9 100%);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  .productCard {
+    width: 100%;
+    height: 420px;  /* фиксированная высота */
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 180px;  /* фиксированная высота изображения */
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+  }
+  .sliderWrapper {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto 40px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    height: 500px;
+  }
+  
+  .slideImage {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .productsGrid {
+    display: flex;
     flex-wrap: wrap;
-}
+    justify-content: center; /* Центрируем ряды товаров */
+    gap: 20px; /* Отступы между товарами */
+    width: 100%;
+  }
+  
+  .productLink {
+    text-decoration: none;
+  }
+  
